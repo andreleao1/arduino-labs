@@ -31,7 +31,7 @@ A **10kΩ resistor** is a common and safe value for pull-down (or pull-up) resis
 ## Why a 330Ω Resistor for the LED?  
 
 Arduino pins can source or sink up to **40mA**, but the safe recommended operating current for an LED is **10–20mA**.  
-This resistor value ensures the LED operates safely and efficiently. 💡 For a more complete documentation with all the calculations, check the **[document.html](./document.html)** file.
+This resistor value ensures the LED operates safely and efficiently. 💡 For a more complete documentation with all the calculations, check the <a href="./document.html" target="_blank">document.html</a> file.
 
 -----
 
