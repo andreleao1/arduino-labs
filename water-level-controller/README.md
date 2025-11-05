@@ -2,13 +2,15 @@
 
 WaterLevelController é um projeto educativo que utiliza o Arduino para medir a distância em um reservatório de água com o sensor ultrassônico HC-SR04, simulando o controle automático de uma bomba d’água. O sistema exibe a distância e o status da bomba em um display LCD I2C e aciona um LED (ou módulo relé) representando a bomba.
 
+> **Observação:** A versão `WaterLevelController_v1` não mostra as mensagens "Bomba ligada!" e "Bomba desligada!" no display, mas o princípio de funcionamento é o mesmo. A ligação do diagrama também permanece igual.
+
 ---
 
 ## Funcionalidades
 
 - Mede a distância de um objeto (nível da água) com o sensor ultrassônico HC-SR04.
 - Aciona um LED ou módulo relé quando a bomba deve ser ligada/desligada (controle automático).
-- Exibe a distância e mensagens de status no display LCD 16x2 via interface I2C.
+- Exibe a distância no display LCD 16x2 via interface I2C.
 - Inclui mensagens de erro caso a leitura do sensor falhe.
 
 ---
@@ -66,6 +68,8 @@ Abra a IDE Arduino e siga os passos:
   - GND → GND
   - SDA → A4
   - SCL → A5
+
+> O diagrama de ligação é o mesmo utilizado na versão `WaterLevelController_v1`.
 
 ---
 
